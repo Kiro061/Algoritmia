@@ -28,3 +28,38 @@
 
         Escribir " El total es ", total
     FinAlgoritmo
+
+´´´
+# Falso o Verdadero Mayor de edad
+    Algoritmo
+        Definir Nombre como caracter
+        Definir edad como entero
+
+        Escribir "Digite el nombre"
+        Leer Nombre
+
+        Escribir "Digite edad"
+        Leer edad
+
+        respuesta = edad >= 18
+
+        Imprimir "Eres mayor de edad: ", respuesta
+    FinAlgoritmo
+´´´
+# Falso o Verdadero para entrar
+    Algoritmo
+        Definir edad como entero
+        Definir Permiso como logico
+        Definir PuedeEntrar como logico
+
+        Escribir "Ingresa tu edad"
+        leer edad
+
+        Escribir "tienes permiso? (Verdadero/Falso)"
+        leer permiso
+
+        PuedeEntrar <- (edad >=18) y permiso
+
+        Escribir "Puede ingresar?:", Puede entrar
+    FinAlgoritmo
+
