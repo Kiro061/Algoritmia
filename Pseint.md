@@ -62,4 +62,29 @@
 
         Escribir "Puede ingresar?:", Puede entrar
     FinAlgoritmo
+´´´
+# Notas
+    Algoritmo
+        Definir nota como real
+
+        Escribir "Digite la nota"
+        Leer nota
+
+        Si nota > 5.0 o nota < 0 Entonces
+
+        Si nota >= 4.5 y nota <= 5.0 entonces
+            Escribir "Excelente"
+        sino
+            si nota >= 4.0 y nota < 4.5 entonces
+                Escribir "Sobresaliente"
+            Sino
+                si nota >= 3.5 y nota < 4.0 entonces
+                Escribir "Aceptable"
+                Sino nota >= 3.0 y nota < 3.5 entonces
+                    Escribir "Aprobado" 
+    FinAlgoritmo
+
+
+
+
 
