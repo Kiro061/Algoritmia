@@ -83,7 +83,8 @@
                 Sino nota >= 3.0 y nota < 3.5 entonces
                     Escribir "Aprobado" 
     FinAlgoritmo
-
+´´´
+# Clasificacion De Notas
 
 
 
